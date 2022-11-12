@@ -37,3 +37,18 @@ bool eMaiMare(elev E1, elev E2) {
 	}
 	return false;
 }
+
+//todo functie ce citeste partea reala si imaginara a unui nr complex
+
+void citireReIm(Complex& z) {
+	ifstream f("numarComplex.txt");
+	f >> z.pre;
+	f >> z.pim;
+}
+
+//todo functie ce returneaza modulul unui nr complex
+
+float modul(Complex z) {
+	int suma = pow(z.pre, 2) + pow(z.pim, 2);
+	return sqrt(suma);
+}

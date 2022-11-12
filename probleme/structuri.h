@@ -22,3 +22,10 @@ struct elev {
 	char nume[21];
 	Data dn;
 };
+
+
+
+struct Complex {
+	int pre;
+	int pim;
+};

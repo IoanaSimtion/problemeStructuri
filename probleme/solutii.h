@@ -32,3 +32,15 @@ void sol2() {
 		cout << E2.nume;
 	}
 }
+
+
+//Teza 4, S2, 2:
+
+//sa se afiseze modului numarului complex z
+
+void sol3() {
+	Complex z;
+	citireReIm(z);
+	//cout << z.pre << ' ' << z.pim;
+	cout << modul(z);
+}
