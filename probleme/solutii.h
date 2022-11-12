@@ -65,3 +65,15 @@ void sol5() {
 	coordonatePuncte(A, B);
 	cout << apartineAxa(A, B);
 }
+
+
+//Teza 8, S2, 2:
+
+//sa se verifice daca triunghiul este isoscel (fara a fi echilateral)
+
+void sol6() {
+	Triunghi t;
+	laturiTriunghi(t);
+	//cout << t.a;
+	cout << isoscel(t);
+}

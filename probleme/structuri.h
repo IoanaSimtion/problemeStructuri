@@ -46,3 +46,9 @@ struct Poligon {
 struct Punct2 {
 	float x, y;
 };
+
+
+
+struct Triunghi {
+	float a, b, c;
+};

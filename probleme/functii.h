@@ -112,3 +112,21 @@ bool apartineAxa(Punct2 A, Punct2 B) {
 	}
 	return false;
 }
+
+//todo functie ce citeste laturile unui triunghi
+
+void laturiTriunghi(Triunghi& t) {
+	ifstream f("laturi.txt");
+	f >> t.a;
+	f >> t.b;
+	f >> t.c;
+}
+
+//todo functie ce verifica daca triunghiul este isoscel
+
+bool isoscel(Triunghi t) {
+	if ((t.a == t.b && t.a != t.c) || (t.b == t.c && t.b != t.a) || (t.a == t.c && t.a != t.b)) {
+		return true;
+	}
+	return false;
+}
