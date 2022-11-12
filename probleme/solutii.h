@@ -44,3 +44,24 @@ void sol3() {
 	//cout << z.pre << ' ' << z.pim;
 	cout << modul(z);
 }
+
+
+//Teza 5, S2, 2:
+
+//sa se afiseze perimetrul poligonului p
+
+void sol4() {
+	Poligon p;
+	float per;
+	citireCoordonate(p);
+	cout << perimetru(p, per);
+}
+
+
+//Teza 7, S2, 2:
+
+void sol5() {
+	Punct2 A, B;
+	coordonatePuncte(A, B);
+	cout << apartineAxa(A, B);
+}

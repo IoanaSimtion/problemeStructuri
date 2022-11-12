@@ -29,3 +29,20 @@ struct Complex {
 	int pre;
 	int pim;
 };
+
+
+
+struct Punct {
+	float x, y;
+};
+
+struct Poligon {
+	int nr;
+	punct v[101];
+};
+
+
+
+struct Punct2 {
+	float x, y;
+};
